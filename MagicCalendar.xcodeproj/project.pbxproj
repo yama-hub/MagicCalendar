@@ -21,6 +21,13 @@
 		40768C2A18F3FF9400C4C681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40768C0C18F3FF9400C4C681 /* UIKit.framework */; };
 		40768C3218F3FF9400C4C681 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40768C3018F3FF9400C4C681 /* InfoPlist.strings */; };
 		40768C3418F3FF9400C4C681 /* MagicCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40768C3318F3FF9400C4C681 /* MagicCalendarTests.m */; };
+		40768C4518F4004500C4C681 /* MagicCalendarCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40768C4018F4004500C4C681 /* MagicCalendarCollectionCell.m */; };
+		40768C4618F4004500C4C681 /* MagicCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40768C4218F4004500C4C681 /* MagicCalendarController.m */; };
+		40768C4718F4004500C4C681 /* MagicCalendarViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 40768C4418F4004500C4C681 /* MagicCalendarViewFlowLayout.m */; };
+		40768C4D18F406A500C4C681 /* NSDate+UsefulKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 40768C4A18F406A500C4C681 /* NSDate+UsefulKit.m */; };
+		40768C4E18F406A500C4C681 /* UIView+UsefulKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 40768C4C18F406A500C4C681 /* UIView+UsefulKit.m */; };
+		40768C5018F407A700C4C681 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40768C4F18F407A700C4C681 /* EventKit.framework */; };
+		40B393C518FF9ACA0093C404 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B393C418FF9ACA0093C404 /* iTunesArtwork.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,18 @@
 		40768C2F18F3FF9400C4C681 /* MagicCalendarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicCalendarTests-Info.plist"; sourceTree = "<group>"; };
 		40768C3118F3FF9400C4C681 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40768C3318F3FF9400C4C681 /* MagicCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicCalendarTests.m; sourceTree = "<group>"; };
+		40768C3F18F4004500C4C681 /* MagicCalendarCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicCalendarCollectionCell.h; sourceTree = "<group>"; };
+		40768C4018F4004500C4C681 /* MagicCalendarCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicCalendarCollectionCell.m; sourceTree = "<group>"; };
+		40768C4118F4004500C4C681 /* MagicCalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicCalendarController.h; sourceTree = "<group>"; };
+		40768C4218F4004500C4C681 /* MagicCalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicCalendarController.m; sourceTree = "<group>"; };
+		40768C4318F4004500C4C681 /* MagicCalendarViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicCalendarViewFlowLayout.h; sourceTree = "<group>"; };
+		40768C4418F4004500C4C681 /* MagicCalendarViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicCalendarViewFlowLayout.m; sourceTree = "<group>"; };
+		40768C4918F406A500C4C681 /* NSDate+UsefulKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+UsefulKit.h"; sourceTree = "<group>"; };
+		40768C4A18F406A500C4C681 /* NSDate+UsefulKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+UsefulKit.m"; sourceTree = "<group>"; };
+		40768C4B18F406A500C4C681 /* UIView+UsefulKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UsefulKit.h"; sourceTree = "<group>"; };
+		40768C4C18F406A500C4C681 /* UIView+UsefulKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UsefulKit.m"; sourceTree = "<group>"; };
+		40768C4F18F407A700C4C681 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		40B393C418FF9ACA0093C404 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40768C5018F407A700C4C681 /* EventKit.framework in Frameworks */,
 				40768C0B18F3FF9400C4C681 /* CoreGraphics.framework in Frameworks */,
 				40768C0D18F3FF9400C4C681 /* UIKit.framework in Frameworks */,
 				40768C0918F3FF9400C4C681 /* Foundation.framework in Frameworks */,
@@ -101,6 +121,7 @@
 		40768C0718F3FF9400C4C681 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				40768C4F18F407A700C4C681 /* EventKit.framework */,
 				40768C0818F3FF9400C4C681 /* Foundation.framework */,
 				40768C0A18F3FF9400C4C681 /* CoreGraphics.framework */,
 				40768C0C18F3FF9400C4C681 /* UIKit.framework */,
@@ -112,6 +133,9 @@
 		40768C0E18F3FF9400C4C681 /* MagicCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				40B393C418FF9ACA0093C404 /* iTunesArtwork.png */,
+				40768C4818F406A500C4C681 /* Categories */,
+				40768C3E18F4001D00C4C681 /* MagicCalendar */,
 				40768C1718F3FF9400C4C681 /* AppDelegate.h */,
 				40768C1818F3FF9400C4C681 /* AppDelegate.m */,
 				40768C1A18F3FF9400C4C681 /* Main.storyboard */,
@@ -150,6 +174,30 @@
 				40768C3018F3FF9400C4C681 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40768C3E18F4001D00C4C681 /* MagicCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				40768C3F18F4004500C4C681 /* MagicCalendarCollectionCell.h */,
+				40768C4018F4004500C4C681 /* MagicCalendarCollectionCell.m */,
+				40768C4118F4004500C4C681 /* MagicCalendarController.h */,
+				40768C4218F4004500C4C681 /* MagicCalendarController.m */,
+				40768C4318F4004500C4C681 /* MagicCalendarViewFlowLayout.h */,
+				40768C4418F4004500C4C681 /* MagicCalendarViewFlowLayout.m */,
+			);
+			path = MagicCalendar;
+			sourceTree = "<group>";
+		};
+		40768C4818F406A500C4C681 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				40768C4918F406A500C4C681 /* NSDate+UsefulKit.h */,
+				40768C4A18F406A500C4C681 /* NSDate+UsefulKit.m */,
+				40768C4B18F406A500C4C681 /* UIView+UsefulKit.h */,
+				40768C4C18F406A500C4C681 /* UIView+UsefulKit.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +278,7 @@
 			files = (
 				40768C2118F3FF9400C4C681 /* Images.xcassets in Resources */,
 				40768C1318F3FF9400C4C681 /* InfoPlist.strings in Resources */,
+				40B393C518FF9ACA0093C404 /* iTunesArtwork.png in Resources */,
 				40768C1C18F3FF9400C4C681 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +300,12 @@
 			files = (
 				40768C1F18F3FF9400C4C681 /* ViewController.m in Sources */,
 				40768C1918F3FF9400C4C681 /* AppDelegate.m in Sources */,
+				40768C4718F4004500C4C681 /* MagicCalendarViewFlowLayout.m in Sources */,
 				40768C1518F3FF9400C4C681 /* main.m in Sources */,
+				40768C4618F4004500C4C681 /* MagicCalendarController.m in Sources */,
+				40768C4E18F406A500C4C681 /* UIView+UsefulKit.m in Sources */,
+				40768C4518F4004500C4C681 /* MagicCalendarCollectionCell.m in Sources */,
+				40768C4D18F406A500C4C681 /* NSDate+UsefulKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +510,7 @@
 				40768C3918F3FF9400C4C681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40768C3A18F3FF9400C4C681 /* Build configuration list for PBXNativeTarget "MagicCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +519,7 @@
 				40768C3C18F3FF9400C4C681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
